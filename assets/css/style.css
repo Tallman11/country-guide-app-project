@@ -5,19 +5,23 @@
 }
 body {
     background-color:blue;
+    height: 100vh;
+    display: flex;
+    align-items: center;
 
 }
 .container {
     background-color: #ffff;
-    width: 80vw;
+    /* width: 80vw; */
     max-width: 37.5em;
     padding: 3em 2.5em;
-    position:absolute;
+    /* position:absolute; */
     transform:translate(-50% -50%);
-    top: 50%;
-    right: 25%;
+    /* top: 50%; */
+    /* right: 25%; */
     border-radius: 0.62em;
     box-shadow: 0 1.25em 1.8em rgba(8, 21, 65,0.25);
+    margin: auto;
     
 }
 .search-wrapper {
